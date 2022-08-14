@@ -1,0 +1,23 @@
+.root{
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  ul{
+    display: flex;
+    list-style: none;
+    a{
+      text-decoration: none;
+      margin: 8px;
+      color: black;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+  }
+
+  ul li.active a{
+    color: #fff;
+    background-color: black;
+  }
+}
